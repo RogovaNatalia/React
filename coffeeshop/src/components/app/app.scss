@@ -1,0 +1,12 @@
+.app {
+  margin: 0 auto;
+  width: 1440px;
+
+  &__container {
+    background-image: url(../resources/header_bg.png);
+    background-size: cover;
+    background-position: center;
+    color: black;
+    height: 640px;
+  }
+}

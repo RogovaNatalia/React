@@ -1,0 +1,51 @@
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    color: white;
+    text-align: center;
+  
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+  
+    &__title {
+      font-size: 40px;
+      font-family: 'Merienda', sans-serif;
+      margin-bottom: 20px;
+      margin-top: 111px;
+    }
+
+    &__logo-img {
+        width: 200px ;
+        height: 29px;
+    }
+  
+    &__subtitle {
+      font-size: 24px;
+      margin-top: 35px;
+      font-family: 'Merienda', sans-serif;
+      line-height: 1.5;
+      margin-bottom: 18px;
+    }
+  
+    &__button {
+      background-color: transparent;
+      color: white;
+      padding: 5px 42px;
+      font-size: 16px;
+      text-decoration: none;
+      border-radius: 3px;
+      border: 1px solid white;
+      font-family: 'Merienda', sans-serif;
+  
+      &:hover {
+        background-color: #e15b4b;
+      }
+    }
+  }
+  
