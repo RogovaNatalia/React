@@ -3,11 +3,12 @@ import PropTypes from "prop-types";
 import "./hero-section.scss";
 import LogoBeans from "../resources/Beans_logo.svg";
 
-const HeroSection = ({ title, marginTop }) => {
+const HeroSection = ({ title, page }) => {
+  const sectionClass = `hero-section hero-section--${page}`;
   return (
-    <section className="hero-section">
+    <section className={sectionClass}>
       <div className="hero-section__content">
-        <h1 className="hero-section__title" style={{ marginTop }}>
+        <h1 className="hero-section__title">
           {title || "Everything You Love About Coffee"}
         </h1>
         {!title && (
@@ -33,6 +34,7 @@ const HeroSection = ({ title, marginTop }) => {
 
 HeroSection.propTypes = {
   title: PropTypes.string,
+  page: PropTypes.string.isRequired,
 };
 
 export default HeroSection;

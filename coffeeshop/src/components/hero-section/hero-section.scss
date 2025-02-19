@@ -1,10 +1,38 @@
 .hero-section {
     background-size: cover;
-    background-position: center;
-    // height: 100%;
+    background-position: center;    
     color: white;
     text-align: center;
     font-family: 'Merienda', sans-serif;
+    background-image: url(../resources/header_bg.png);
+    margin-top: -70px;
+    background-size: cover;
+    background-position: center;
+
+    &--home {
+      background-image: url(../resources/header_bg.png);
+    }
+
+    &--about {
+      height: 260px;
+      background-image: url(../resources/coffee-shop_bg.png);
+
+
+    & .hero-section__title {
+      margin-top: 130px;
+    }
+    }
+  
+
+    &--pleasure {
+      background-image: url(../resources/pleasure_bg.png);
+      height: 260px;
+
+      & .hero-section__title {
+        margin-top: 130px;
+    }
+  }
+  
   
     &__content {
       display: flex;
@@ -16,7 +44,8 @@
   
     &__title {
       font-size: 40px;
-      margin-bottom: 84px;
+      margin-bottom: 20px;
+      margin-top: 181px;
     }
 
     &__logo-img {
@@ -39,9 +68,11 @@
       text-decoration: none;
       border-radius: 3px;
       border: 1px solid white;
+      margin-bottom: 201px;
   
       &:hover {
-        background-color: #e15b4b;
+        background-color: #fff;
+        color: #000;
       }
     }
   }

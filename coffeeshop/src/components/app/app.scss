@@ -3,21 +3,4 @@
   width: 1440px;
 }
 
-.app__container {
-    background-image: url(../resources/header_bg.png);
-    background-size: cover;
-    background-position: center;
-    color: black;
-    height: 640px;
-  
-    &.about-page {
-      height: 260px;
-      background-image: url(../resources/coffee-shop_bg.png);
-    }
-  
-    &.pleasure-page {
-      background-image: url(../resources/pleasure_bg.png);
-      height: 260px;
-    }
-  }
 

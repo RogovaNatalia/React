@@ -1,31 +1,29 @@
 import "./header.scss";
 import Logo from "../resources/Logo.svg";
+import { Link } from "react-router";
 
-const Header = ({ setPage }) => {
+const Header = () => {
   return (
     <header className="header">
-      <div className="container">
-        <img
-          src={Logo}
-          alt="Coffee house logo"
-          className="header__logo"
-          onClick={() => setPage("home")}
-        />
-        <nav className="header__nav">
-          <ul>
-            <li>
-              <a href="#our-coffee" onClick={() => setPage("aboutCoffe")}>
-                Our coffee
-              </a>
-            </li>
-            <li>
-              <a href="#pleasure" onClick={() => setPage("pleasure")}>
-                For your pleasure
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <nav className="header__nav">
+        <ul>
+          <li>
+            <Link to="/">
+              <img
+                src={Logo}
+                alt="Coffee house logo"
+                className="header__logo"
+              />
+            </Link>
+          </li>
+          <li>
+            <Link to="/about">Our coffee</Link>
+          </li>
+          <li>
+            <Link to="/pleasure">For your pleasure</Link>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 };
