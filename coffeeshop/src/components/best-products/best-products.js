@@ -1,8 +1,8 @@
 import React from "react";
 import "./best-products.scss";
-import solimoImg from "../resources/solimo.jpg";
-import prestoImg from "../resources/presto.jpg";
-import aromistoImg from "../resources/aromisto.jpg";
+import solimoImg from "../../resources/solimo.jpg";
+import prestoImg from "../../resources/presto.jpg";
+import aromistoImg from "../../resources/aromisto.jpg";
 
 const BestProducts = () => {
   const products = [

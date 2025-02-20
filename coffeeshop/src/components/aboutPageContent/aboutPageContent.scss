@@ -1,4 +1,4 @@
-.aboutBeans {
+.aboutPage {
     background-color: white;
     padding: 70px 0 60px;
     text-align: center; 
@@ -23,17 +23,17 @@
 
   }
 
-  .aboutBeans__container {
+  .aboutPage__container {
     grid-area: 1 / 2 / 2 / 3;
   }
   
-  .aboutBeans__title {
+  .aboutPage__title {
     font-size: 24px;
     margin-bottom: 20px; 
   
   }
 
-  .aboutBeans__img {
+  .aboutPage__img {
     grid-area: 1 / 1 / 2 / 2;
     width: 272px;
     height: 355px;
@@ -41,20 +41,24 @@
 
   }
   
-  .aboutBeans__logo-img {
+  .aboutPage__logo-img {
     width: 200px;
     height: 29px;
     margin-bottom: 26px; 
   }
   
-  .aboutBeans__subtitle {
+  .aboutPage__subtitle {
     font-size: 14px; 
     line-height: 20px; 
     max-width: 346px;
     margin: 0 auto; 
+    margin-bottom: 20px;
   }
 
-  .aboutBeans__subtitle:not(:last-of-type) {
-    margin-bottom: 20px;
+  .aboutPage__description {
+    font-size: 14px; 
+    line-height: 20px; 
+    max-width: 346px;
+    margin: 0 auto; 
   }
 }

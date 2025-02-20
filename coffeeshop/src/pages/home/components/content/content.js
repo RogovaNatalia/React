@@ -1,13 +1,13 @@
 import React from "react";
-import "./aboutUs.scss";
-import LogoBeans from "../resources/Beans_logo_black.svg";
+import "./content.scss";
+import LogoBeans from "../../../../resources/Beans_logo_black.svg";
 
-const AboutUs = () => {
+const Content = () => {
   return (
-    <div className="aboutUs">
-      <h1 className="aboutUs__title">About Us</h1>
-      <img className="aboutUs__logo-img" src={LogoBeans} alt="LogoBeans" />
-      <p className="aboutUs__subtitle">
+    <div className="content">
+      <h1 className="content__title">About Us</h1>
+      <img className="content__logo-img" src={LogoBeans} alt="LogoBeans" />
+      <p className="content__subtitle">
         Extremity sweetness difficult behaviour he of. On disposal of as
         landlord horrible. Afraid at highly months do things on at. Situation
         recommend objection do intention so questions. As greatly removed
@@ -15,7 +15,7 @@ const AboutUs = () => {
         Children me laughing we prospect answered followed. At it went is song
         that held help face.
       </p>
-      <p className="aboutUs__subtitle">
+      <p className="content__subtitle">
         Now residence dashwoods she excellent you. Shade being under his bed
         her, Much read on as draw. Blessing for ignorant exercise any yourself
         unpacked. Pleasant horrible but confined day end marriage. Eagerness
@@ -26,4 +26,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default Content;

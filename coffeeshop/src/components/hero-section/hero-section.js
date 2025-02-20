@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./hero-section.scss";
-import LogoBeans from "../resources/Beans_logo.svg";
+import LogoBeans from "../../resources/Beans_logo.svg";
 
 const HeroSection = ({ title, page }) => {
   const sectionClass = `hero-section hero-section--${page}`;
