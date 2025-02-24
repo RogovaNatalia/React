@@ -2,7 +2,8 @@ import React from "react";
 import Drinking from "../../resources/drinking_coffee.jpg";
 import AboutPageContent from "../../components/aboutPageContent/aboutPageContent";
 import ProductCards from "../../components/productCards/productCards";
-import data from "../../components/data/data";
+// import data from "../../components/data/data";
+import ProductList from "../../components/searchBar/searchBar";
 
 const AboutPage = () => (
   <>
@@ -17,7 +18,8 @@ const AboutPage = () => (
       met spot shy want. Children me laughing we prospect answered followed. At it went
       is song that held help face."
     />
-    <ProductCards data={data} />
+    <ProductList />
+    {/* <ProductCards data={data} /> */}
   </>
 );
 

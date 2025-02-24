@@ -1,4 +1,5 @@
 import caffeeType from "../../resources/caffeeTyp.png";
+import imgModal from "../../resources/aromistico.jpg";
 
 const data = [
   {
@@ -7,6 +8,9 @@ const data = [
     country: "Kenya",
     price: 6.99,
     image: caffeeType,
+    imageModal: imgModal,
+    discription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
   {
     id: 1020031,
@@ -14,6 +18,9 @@ const data = [
     country: "Brazil",
     price: 15.99,
     image: caffeeType,
+    imageModal: imgModal,
+    discription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
   {
     id: 1020032,
@@ -21,6 +28,9 @@ const data = [
     country: "Columbia",
     price: 10.73,
     image: caffeeType,
+    imageModal: imgModal,
+    discription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
   {
     id: 1020033,
@@ -28,6 +38,9 @@ const data = [
     country: "Brazil",
     price: 9.99,
     image: caffeeType,
+    imageModal: imgModal,
+    discription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
   {
     id: 1020034,
@@ -35,13 +48,19 @@ const data = [
     country: "Kenya",
     price: 12.45,
     image: caffeeType,
+    imageModal: imgModal,
+    discription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
   {
     id: 1020035,
-    name: "Mertionaro Coffee Beans 2 kg",
+    name: "Mertionaro Coffee Beans",
     country: "Columbia",
     price: 4.99,
     image: caffeeType,
+    imageModal: imgModal,
+    discription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
   {
     id: 1020036,
@@ -49,12 +68,19 @@ const data = [
     country: "Columbia",
     price: 4.99,
     image: caffeeType,
+    imageModal: imgModal,
+    discription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
   {
     id: 1020037,
     name: "Moccaro Coffee Beans",
     country: "Kenya",
+    price: 4.99,
     image: caffeeType,
+    imageModal: imgModal,
+    discription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
   {
     id: 1020038,
@@ -62,6 +88,9 @@ const data = [
     country: "Brazil",
     price: 18.99,
     image: caffeeType,
+    imageModal: imgModal,
+    discription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
 ];
 

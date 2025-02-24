@@ -6,6 +6,8 @@ import HomePage from "./pages/home/home";
 import AboutPage from "./pages/about/about";
 import PleasurePage from "./pages/pleasure/pleasure";
 
+import ProductDetailPage from "../src/components/productDetailPage/productDetailPage";
+
 import "./app.scss";
 
 const Layout = ({ title, page }) => (
@@ -29,7 +31,7 @@ function App() {
           element={<Layout title="Our Coffee" page="about" />}
         >
           <Route index element={<AboutPage />} />
-          {/* <Route path=":coffeeId" element={<CoffeeDetails />} /> */}
+          <Route path="product/:id" element={<ProductDetailPage />} />
         </Route>
 
         <Route

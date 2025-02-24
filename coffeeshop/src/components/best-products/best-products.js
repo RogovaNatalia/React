@@ -10,19 +10,19 @@ const BestProducts = () => {
       id: 1,
       image: solimoImg,
       name: "Solimo Coffee Beans 2 kg",
-      price: "10.73$",
+      price: 10.73,
     },
     {
       id: 2,
       image: prestoImg,
       name: "Presto Coffee Beans 1 kg",
-      price: "15.99$",
+      price: 15.99,
     },
     {
       id: 3,
       image: aromistoImg,
       name: "AROMISTICO Coffee 1 kg",
-      price: "6.99$",
+      price: 6.99,
     },
   ];
 
@@ -39,7 +39,7 @@ const BestProducts = () => {
                 className="best-products__img"
               />
               <h3 className="best-products__name">{product.name}</h3>
-              <p className="best-products__price">{product.price}</p>
+              <p className="best-products__price">{product.price + "$"}</p>
             </div>
           ))}
         </div>

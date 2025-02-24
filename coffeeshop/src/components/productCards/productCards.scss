@@ -1,6 +1,6 @@
 .product-cards {
   text-align: center;
-  padding: 60px 0 110px;
+  padding: 60px 0 30px;
   font-family: 'Merienda', sans-serif; 
 
   &__grid {
@@ -15,9 +15,12 @@
   &__card {
     transition: transform 0.3s ease;
     width: 220px;
-    height: 240px;
+    // height: 260px;
     box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25);
-
+    overflow: hidden;
+    text-decoration: none; /* Убирает подчеркивание */
+    color: inherit;
+    
 
     &:hover {
       transform: translateY(-5px);
@@ -27,35 +30,40 @@
 
 .product-card {
   background: rgba(255, 255, 255, 0.65);
-  padding: 22px;
   border-radius: 8px;
   text-align: right; 
   display: flex;
   flex-direction: column;
-  align-items: revert;
+ 
 
   &__img {
     display: block;
     margin: 0 auto;
-    width: 100%; 
-    height: auto;
+    padding-top: 37px;
+   
   }
 
   &__name {
     font-size: 14px;
-    margin: 14px 0 10px;
-    margin: 14px -10px 10px;
+    padding-top: 14px;
+    margin-right: 25px;
+  
   }
 
   &__country {
       font-size: 14px; 
+      white-space: nowrap;
+      margin-right: 25px;
+      margin-top: 0;
   }
 
   &__price {
     font-size: 14px;
     font-weight: bold;
     color: #000;
-    margin: 0 -10px;
+    margin-right: 25px;
+    margin-bottom: 22px;
+    margin-top: 0;
   }
 }
   
