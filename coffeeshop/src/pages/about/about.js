@@ -1,7 +1,7 @@
 import React from "react";
 import Drinking from "../../resources/drinking_coffee.jpg";
 import AboutPageContent from "../../components/aboutPageContent/aboutPageContent";
-import ProductCards from "../../components/productCards/productCards";
+// import ProductCards from "../../components/productCards/productCards";
 // import data from "../../components/data/data";
 import ProductList from "../../components/searchBar/searchBar";
 

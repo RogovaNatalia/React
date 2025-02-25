@@ -4,7 +4,7 @@ import LogoBeans from "../../../../resources/Beans_logo_black.svg";
 
 const Content = () => {
   return (
-    <div className="content">
+    <section className="content">
       <h1 className="content__title">About Us</h1>
       <img className="content__logo-img" src={LogoBeans} alt="LogoBeans" />
       <p className="content__subtitle">
@@ -22,7 +22,7 @@ const Content = () => {
         furniture set preserved far recommend. Did even but nor are most gave
         hope. Secure active living depend son repair day ladies now.
       </p>
-    </div>
+    </section>
   );
 };
 

@@ -17,6 +17,12 @@ const ProductList = () => {
     setSearchTerm(term.toLowerCase());
   };
 
+  // Обработчик для сброса фильтров
+  const handleReset = () => {
+    setSelectedCountry(null);
+    setSearchTerm("");
+  };
+
   // Фильтрация данных
   const filteredProducts = data.filter(
     (product) =>
@@ -42,6 +48,12 @@ const ProductList = () => {
         <div className="filter-section__filter-buttons">
           <span className="filter-section__filter-buttons-name">Or filter</span>
           <div className="filter-section__filter-buttons-buttons-group">
+            <button
+              className="filter-section__filter-buttons-button"
+              onClick={handleReset}
+            >
+              All
+            </button>
             {["Brazil", "Kenya", "Columbia"].map((country) => (
               <button
                 key={country}
